@@ -1,0 +1,29 @@
+.pd-left-38 {
+    padding-left: 38px;
+}
+
+.title {
+    margin-bottom: 18px;
+}
+
+.para {
+    margin: 16px 0;
+    .name {
+        display: inline;
+    }
+}
+
+.para:nth-child(8) {
+    margin: 16px 0 38px;
+}
+
+.para:last-child {
+    padding-bottom: 42px;
+    border-bottom: 1px solid rgb(204, 204, 204, 0.5);
+}
+
+@media (max-width:739px) {
+    .pd-left-right-18 {
+        padding: 0 18px;
+    }
+}

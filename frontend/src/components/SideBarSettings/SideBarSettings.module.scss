@@ -1,0 +1,48 @@
+.sidebar {
+    width: 16%;
+    margin: 0 32px 0 46px;
+    .btn-delete {
+        padding: 16px 0;
+        background-color: var(--light-color);
+        border: none;
+        font-size: 1.5rem;
+        color: #ff5555;
+        cursor: pointer;
+    }
+}
+
+.list {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+    .link {
+        text-decoration: none;
+        display: block;
+        color: var(--dark-color);
+        padding: 8px 0;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+    .active {
+        font-weight: 500;
+    }
+}
+
+@media (max-width:739px) {
+    .sidebar {
+        width: 100%;
+        margin:  12px 0;
+        padding: 0 16px;
+        .sidebar-wrap {
+            border: 1px solid #ccc;
+            padding: 0 16px;
+            border-radius: 4px;
+        }
+        .btn-delete {
+            padding: 8px 0 16px;
+        }
+    }
+    .list {
+        border-bottom: none;
+    }
+}

@@ -1,0 +1,9 @@
+@use '../Login/Login.module.scss';
+
+.form {
+    @extend .form;
+    .btn-register {
+        @extend .btn-login;
+        padding: 6px 110px;
+    }
+}

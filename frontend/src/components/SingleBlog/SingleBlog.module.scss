@@ -1,0 +1,36 @@
+.wrap {
+    .title {
+        padding-left: 46px;
+    }
+    .wrap-post {
+        display: flex;
+        align-items: center;
+        padding: 0 18px 0 46px;
+        margin: 18px 0;
+        .time {
+            margin-left: 12px;
+        }
+        .name,.date {
+            margin-left: 4px;
+        }
+    }
+    .img {
+        width: 100%;
+        padding: 0 36px;
+    }
+    .para {
+        white-space: pre-line;
+        padding: 0 36px;
+        margin-top: 14px;
+        overflow: hidden;
+        max-width: calc(100% - 36px);
+    }
+}
+
+@media (max-width:739px) {
+    .wrap {
+        .title,.wrap-post,.img,.para {
+            padding: 0 18px;
+        }
+    }
+}
